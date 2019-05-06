@@ -3,7 +3,7 @@ spark
 
 // in Scala
 val myRange = spark.range(1000).toDF("number")
-
+//Above command creates a Data frame of 1000 numbers
 
 // COMMAND ----------
 
@@ -23,7 +23,7 @@ val flightData2015 = spark
   .read
   .option("inferSchema", "true")
   .option("header", "true")
-  .csv("/data/flight-data/csv/2015-summary.csv")
+  .csv("../data/flight-data/csv/2015-summary.csv")
 
 
 // COMMAND ----------
