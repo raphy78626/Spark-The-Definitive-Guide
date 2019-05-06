@@ -118,4 +118,4 @@ flightData2015
 
 
 // COMMAND ----------
-
+//This chapter explains how we can deal with basic sqlContexts and Dataframes provided spark
