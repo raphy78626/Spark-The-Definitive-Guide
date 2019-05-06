@@ -1,6 +1,4 @@
 spark
-
-
 // COMMAND ----------
 
 // in Scala
